@@ -1,0 +1,90 @@
+C:\Users\rolan\Bureau\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.csprojAssemblyReference.cache
+C:\Users\rolan\Bureau\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\App.g.cs
+C:\Users\rolan\Bureau\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe_MarkupCompile.cache
+C:\Users\rolan\Bureau\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe_MarkupCompile.lref
+C:\Users\rolan\Bureau\Ptut_S4\ChallengeMe\ChallengeMe\bin\Debug\ChallengeMe.exe.config
+C:\Users\rolan\Bureau\Ptut_S4\ChallengeMe\ChallengeMe\bin\Debug\ChallengeMe.exe
+C:\Users\rolan\Bureau\Ptut_S4\ChallengeMe\ChallengeMe\bin\Debug\ChallengeMe.pdb
+C:\Users\rolan\Bureau\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.g.resources
+C:\Users\rolan\Bureau\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.Properties.Resources.resources
+C:\Users\rolan\Bureau\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.csproj.GenerateResource.cache
+C:\Users\rolan\Bureau\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.csproj.CoreCompileInputs.cache
+C:\Users\rolan\Bureau\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.exe
+C:\Users\rolan\Bureau\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.pdb
+C:\Users\rolan\Bureau\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\MainWindow.g.cs
+C:\Users\rolan\Bureau\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\MainWindow.baml
+C:\Users\rolan\Bureau\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\Partie.g.cs
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe\ChallengeMe\bin\Debug\ChallengeMe.exe.config
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe\ChallengeMe\bin\Debug\ChallengeMe.exe
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe\ChallengeMe\bin\Debug\ChallengeMe.pdb
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.csprojAssemblyReference.cache
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\MainWindow.g.cs
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\Partie.g.cs
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\App.g.cs
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe_MarkupCompile.cache
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe_MarkupCompile.lref
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\MainWindow.baml
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\Partie.baml
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.g.resources
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.Properties.Resources.resources
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.csproj.GenerateResource.cache
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.csproj.CoreCompileInputs.cache
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.exe
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.pdb
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\RegleView.g.cs
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\RegleView.baml
+C:\Users\rolan\Bureau\ChallengeMe\ChallengeMe\bin\Debug\ChallengeMe.exe.config
+C:\Users\rolan\Bureau\ChallengeMe\ChallengeMe\bin\Debug\ChallengeMe.exe
+C:\Users\rolan\Bureau\ChallengeMe\ChallengeMe\bin\Debug\ChallengeMe.pdb
+C:\Users\rolan\Bureau\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.csprojAssemblyReference.cache
+C:\Users\rolan\Bureau\ChallengeMe\ChallengeMe\obj\Debug\MainWindow.g.cs
+C:\Users\rolan\Bureau\ChallengeMe\ChallengeMe\obj\Debug\Partie.g.cs
+C:\Users\rolan\Bureau\ChallengeMe\ChallengeMe\obj\Debug\RegleView.g.cs
+C:\Users\rolan\Bureau\ChallengeMe\ChallengeMe\obj\Debug\App.g.cs
+C:\Users\rolan\Bureau\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe_MarkupCompile.cache
+C:\Users\rolan\Bureau\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe_MarkupCompile.lref
+C:\Users\rolan\Bureau\ChallengeMe\ChallengeMe\obj\Debug\MainWindow.baml
+C:\Users\rolan\Bureau\ChallengeMe\ChallengeMe\obj\Debug\Partie.baml
+C:\Users\rolan\Bureau\ChallengeMe\ChallengeMe\obj\Debug\RegleView.baml
+C:\Users\rolan\Bureau\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.g.resources
+C:\Users\rolan\Bureau\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.Properties.Resources.resources
+C:\Users\rolan\Bureau\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.csproj.GenerateResource.cache
+C:\Users\rolan\Bureau\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.csproj.CoreCompileInputs.cache
+C:\Users\rolan\Bureau\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.exe
+C:\Users\rolan\Bureau\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.pdb
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe_BackUp 2\ChallengeMe\obj\Debug\ChallengeMe.csprojAssemblyReference.cache
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe_BackUp 2\ChallengeMe\obj\Debug\MainWindow.g.cs
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe_BackUp 2\ChallengeMe\obj\Debug\Partie.g.cs
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe_BackUp 2\ChallengeMe\obj\Debug\RegleView.g.cs
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe_BackUp 2\ChallengeMe\obj\Debug\App.g.cs
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe_BackUp 2\ChallengeMe\obj\Debug\ChallengeMe_MarkupCompile.cache
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe_BackUp 2\ChallengeMe\obj\Debug\ChallengeMe_MarkupCompile.lref
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe_BackUp 2\ChallengeMe\obj\Debug\ChallengeMe.exe
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe_BackUp 2\ChallengeMe\obj\Debug\ChallengeMe.pdb
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe_BackUp 2\ChallengeMe\obj\Debug\Niveau1.g.cs
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe_BackUp 2\ChallengeMe\bin\Debug\ChallengeMe.exe.config
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe_BackUp 2\ChallengeMe\bin\Debug\ChallengeMe.exe
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe_BackUp 2\ChallengeMe\bin\Debug\ChallengeMe.pdb
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe_BackUp 2\ChallengeMe\obj\Debug\MainWindow.baml
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe_BackUp 2\ChallengeMe\obj\Debug\Niveau1.baml
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe_BackUp 2\ChallengeMe\obj\Debug\Partie.baml
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe_BackUp 2\ChallengeMe\obj\Debug\RegleView.baml
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe_BackUp 2\ChallengeMe\obj\Debug\ChallengeMe.g.resources
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe_BackUp 2\ChallengeMe\obj\Debug\ChallengeMe.Properties.Resources.resources
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe_BackUp 2\ChallengeMe\obj\Debug\ChallengeMe.csproj.GenerateResource.cache
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe_BackUp 2\ChallengeMe\obj\Debug\ChallengeMe.csproj.CoreCompileInputs.cache
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe_BackUp 2\ChallengeMe\obj\Debug\Niveau2.g.cs
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe_BackUp 2\ChallengeMe\obj\Debug\Niveau2.baml
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\Niveau2.g.cs
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\Niveau1.g.cs
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\Niveau2.baml
+C:\Users\chabr\Dropbox\ProjetS4\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\Niveau1.baml
+C:\Users\rolan\Bureau\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\Niveau2.g.cs
+C:\Users\rolan\Bureau\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\Niveau1.g.cs
+C:\Users\rolan\Bureau\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\RegleView.g.cs
+C:\Users\rolan\Bureau\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\Niveau2.baml
+C:\Users\rolan\Bureau\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\Niveau1.baml
+C:\Users\rolan\Bureau\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\Partie.baml
+C:\Users\rolan\Bureau\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\RegleView.baml
+C:\Users\rolan\Bureau\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\Niveau3.g.cs
+C:\Users\rolan\Bureau\Ptut_S4\ChallengeMe\ChallengeMe\obj\Debug\Niveau3.baml
