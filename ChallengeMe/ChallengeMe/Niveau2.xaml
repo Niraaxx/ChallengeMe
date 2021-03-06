@@ -1,0 +1,25 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChallengeMe"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="ChallengeMe.Niveau2"
+        mc:Ignorable="d"
+        Title="Niveau 2" Height="600" Width="900">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="445*"/>
+            <ColumnDefinition Width="447*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Votre Score :" HorizontalAlignment="Right" Margin="0,23,50,0" VerticalAlignment="Top" Width="152" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Stencil" FontSize="20" RenderTransformOrigin="-0.201,0.617" Grid.Column="1" Height="34"/>
+        <Label Content="Pseudonyme :" HorizontalAlignment="Left" Margin="26,16,0,0" VerticalAlignment="Top" Width="152" FontFamily="Stencil" FontSize="20" RenderTransformOrigin="0.425,0.525" Height="34"/>
+        <Label x:Name="pseudo" Content="" Margin="183,16,118,0" VerticalAlignment="Top" FontFamily="Stencil" FontSize="20" Height="34" Loaded="pseudoAfficher"/>
+        <Label x:Name="scoring" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="397,24,0,0" VerticalAlignment="Top" FontFamily="Stencil" FontSize="20" Loaded="scoreAfficher" Width="40" SourceUpdated="scoreUpdate"/>
+        <Label Content="Cliquer sur le carré" HorizontalAlignment="Left" Margin="155,62,0,0" VerticalAlignment="Top" FontFamily="Stencil" FontSize="20" Grid.ColumnSpan="2" Width="579" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Image HorizontalAlignment="Left" Height="240" Margin="10,146,0,0" VerticalAlignment="Top" Width="286" Source="carré.jpg" OpacityMask="Black"/>
+        <Button x:Name="btn_carre" Content="²" HorizontalAlignment="Left" Margin="372,16,0,0" VerticalAlignment="Top" Width="75" FontFamily="Stencil" Foreground="Black" BorderBrush="#00707070" Background="#00DDDDDD" Opacity="0.1" Click="changerNiveau" FontSize="20" Grid.Column="1"/>
+        <Image HorizontalAlignment="Left" Height="361" Margin="224,198,0,0" VerticalAlignment="Top" Width="372" Source="carré_vert.jpg" Grid.ColumnSpan="2" RenderTransformOrigin="0.493,0.498"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="306" Margin="133,236,0,0" VerticalAlignment="Top" Width="264" Source="carré_blanc.png"/>
+    </Grid>
+</Window>
