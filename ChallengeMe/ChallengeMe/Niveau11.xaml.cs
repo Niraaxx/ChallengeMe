@@ -45,7 +45,7 @@ namespace ChallengeMe
         {
             if (e.Key == Key.Enter)
             {
-                if (reponse.Text.ToString().ToUpper() == "n" || reponse.Text.ToString().ToUpper()== "lettre n")
+                if (reponse.Text.ToString().ToUpper() == "N" || reponse.Text.ToString().ToUpper()== "lettre n")
                 {
                     this.Hide();
                     this.score = score + 1;

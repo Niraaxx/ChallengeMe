@@ -14,6 +14,21 @@
     <WarningLevel>4</WarningLevel>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -55,6 +70,24 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Niveau10.xaml.cs">
+      <DependentUpon>Niveau10.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Niveau11.xaml.cs">
+      <DependentUpon>Niveau11.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Niveau12.xaml.cs">
+      <DependentUpon>Niveau12.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Niveau13.xaml.cs">
+      <DependentUpon>Niveau13.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Niveau14.xaml.cs">
+      <DependentUpon>Niveau14.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Niveau15.xaml.cs">
+      <DependentUpon>Niveau15.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Niveau3.xaml.cs">
       <DependentUpon>Niveau3.xaml</DependentUpon>
     </Compile>
@@ -73,6 +106,12 @@
     <Compile Include="Niveau7.xaml.cs">
       <DependentUpon>Niveau7.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Niveau8.xaml.cs">
+      <DependentUpon>Niveau8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Niveau9.xaml.cs">
+      <DependentUpon>Niveau9.xaml</DependentUpon>
+    </Compile>
     <Compile Include="RegleView.xaml.cs">
       <DependentUpon>RegleView.xaml</DependentUpon>
     </Compile>
@@ -88,6 +127,30 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Niveau10.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Niveau11.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Niveau12.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Niveau13.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Niveau14.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Niveau15.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Niveau3.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -115,6 +178,14 @@
     <Page Include="Niveau7.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Niveau8.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Niveau9.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="RegleView.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -164,6 +235,24 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="carre_enigme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="voiture_enigme.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
