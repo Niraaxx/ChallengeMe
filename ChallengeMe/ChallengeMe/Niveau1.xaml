@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:ChallengeMe"
         xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="ChallengeMe.Niveau1"
         mc:Ignorable="d"
-        Title="Niveau 1" Height="600" Width="900">
+        Title="Niveau 1" Height="600" Width="900" Closed="changeNiveau">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="445*"/>
@@ -14,10 +14,9 @@
         </Grid.ColumnDefinitions>
         <Label Content="Votre Score :" HorizontalAlignment="Right" Margin="0,23,50,0" VerticalAlignment="Top" Width="152" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Stencil" FontSize="20" RenderTransformOrigin="-0.201,0.617" Grid.Column="1" Height="34"/>
         <Label Content="Pseudonyme :" HorizontalAlignment="Left" Margin="26,16,0,0" VerticalAlignment="Top" Width="152" FontFamily="Stencil" FontSize="20" RenderTransformOrigin="0.425,0.525" Height="34"/>
-        <Label x:Name="pseudo" Content="" Margin="183,16,118,0" VerticalAlignment="Top" FontFamily="Stencil" FontSize="20" Height="34" Loaded="pseudoAfficher"/>
-        <Label x:Name="scoring" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="397,24,0,0" VerticalAlignment="Top" FontFamily="Stencil" FontSize="20" Loaded="scoreAfficher" Width="40"/>
-        <Button x:Name="ButtonInviValidation" Content="Button" HorizontalAlignment="Left" Margin="26,459,0,0" VerticalAlignment="Top" Width="150" Height="100" Background="#00DDDDDD" BorderBrush="#00707070" Foreground="#00000000" Click="ChangerNiveau" Opacity="0"/>
-        <Label Content="Harry Potter se cache ici avec sa cape d'invisibilité" Margin="140,62,157,405" Grid.ColumnSpan="2" Height="102" Width="595" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" FontFamily="Stencil" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="pseudo" Content="" Margin="183,16,0,0" VerticalAlignment="Top" FontFamily="Stencil" FontSize="20" Height="34" Loaded="pseudoAfficher" HorizontalAlignment="Left" Width="145"/>
+        <Label x:Name="scoring" Content="" Grid.Column="1" HorizontalAlignment="Right" Margin="0,24,10.6,0" VerticalAlignment="Top" FontFamily="Stencil" FontSize="20" Loaded="scoreAfficher" Width="40"/>
+        <Label Content="La meilleure manière de gagner est de quitter" HorizontalAlignment="Center" Margin="160,202,153,246" VerticalAlignment="Center" FontFamily="Stencil" FontSize="20" Grid.ColumnSpan="2" Height="121" Width="579" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
 
     </Grid>
 </Window>

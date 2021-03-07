@@ -21,6 +21,7 @@ namespace ChallengeMe
     public partial class Menu : Window
     {
         private String name = "";
+        private int score = 0;
 
         public Menu()
         {
@@ -39,7 +40,7 @@ namespace ChallengeMe
             else{
                 Console.WriteLine("Nom : " + this.name);
                 this.Hide();
-                Partie p = new Partie(name);
+                Niveau1 p = new Niveau1(name,score);
                 p.ShowDialog();
                 if (p.DialogResult == DialogResult.HasValue)
                 {

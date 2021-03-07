@@ -15,12 +15,12 @@ using System.Windows.Shapes;
 namespace ChallengeMe
 {
     /// <summary>
-    /// Logique d'interaction pour Niveau1.xaml --> Bouton invisible
+    /// Logique d'interaction pour Partie.xaml
     /// </summary>
-    public partial class Niveau1: Window
+    public partial class Niveau1 : Window
     {
         private String name;
-        private int score;
+        private int score = 0;
 
         public Niveau1(string name,int score)
         {
@@ -41,11 +41,11 @@ namespace ChallengeMe
             this.scoring.Content = Convert.ToString(Score);
         }
 
-        private void ChangerNiveau(object sender, RoutedEventArgs e)
+        private void changeNiveau(object sender, EventArgs e)
         {
             this.Hide();
             this.score = score + 1;
-            Niveau2 p = new Niveau2(name, score);
+            Niveau2 p = new Niveau2(name,score);
             p.ShowDialog();
         }
     }
