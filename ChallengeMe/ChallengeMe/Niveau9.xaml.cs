@@ -49,11 +49,7 @@ namespace ChallengeMe
                 {
                     this.Hide();
                     this.score = score + 1;
-<<<<<<< HEAD
                     Niveau10 p = new Niveau10(name, score);
-=======
-                    Niveau9 p = new Niveau9(name, score);
->>>>>>> af6e4ca33b6f63ab1832e3a7d94e043ff6ea8a2f
                     p.ShowDialog();
                 }
                 else
