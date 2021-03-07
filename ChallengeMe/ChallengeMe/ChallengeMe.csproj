@@ -70,6 +70,9 @@
     <Compile Include="Niveau6.xaml.cs">
       <DependentUpon>Niveau6.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Niveau7.xaml.cs">
+      <DependentUpon>Niveau7.xaml</DependentUpon>
+    </Compile>
     <Compile Include="RegleView.xaml.cs">
       <DependentUpon>RegleView.xaml</DependentUpon>
     </Compile>
@@ -106,6 +109,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Niveau1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Niveau7.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

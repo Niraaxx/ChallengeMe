@@ -117,3 +117,5 @@ C:\Users\chabr\Desktop\PtutS4\ChallengeMe\ChallengeMe\ChallengeMe\obj\Debug\Nive
 C:\Users\chabr\Desktop\PtutS4\ChallengeMe\ChallengeMe\ChallengeMe\obj\Debug\Niveau5.baml
 C:\Users\chabr\Desktop\PtutS4\ChallengeMe\ChallengeMe\ChallengeMe\obj\Debug\Niveau6.g.cs
 C:\Users\chabr\Desktop\PtutS4\ChallengeMe\ChallengeMe\ChallengeMe\obj\Debug\Niveau6.baml
+C:\Users\chabr\Desktop\PtutS4\ChallengeMe\ChallengeMe\ChallengeMe\obj\Debug\Niveau7.g.cs
+C:\Users\chabr\Desktop\PtutS4\ChallengeMe\ChallengeMe\ChallengeMe\obj\Debug\Niveau7.baml
