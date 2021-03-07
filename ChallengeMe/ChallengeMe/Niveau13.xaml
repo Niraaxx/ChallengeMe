@@ -1,0 +1,19 @@
+﻿<Window x:Class="ChallengeMe.Niveau13"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChallengeMe"
+        mc:Ignorable="d"
+        Title="Niveau13" Height="636.885" Width="1096.311">
+    <Grid Margin="0,0,2,0">
+        <Label Content="Votre Score :" HorizontalAlignment="Right" Margin="0,23,50,0" VerticalAlignment="Top" Width="152" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Stencil" FontSize="20" RenderTransformOrigin="-0.201,0.617" Grid.Column="1" Height="34"/>
+        <Label Content="Pseudonyme :" HorizontalAlignment="Left" Margin="26,16,0,0" VerticalAlignment="Top" Width="152" FontFamily="Stencil" FontSize="20" RenderTransformOrigin="0.425,0.525" Height="34"/>
+        <Label x:Name="pseudo" Content="" Margin="183,16,0,0" VerticalAlignment="Top" FontFamily="Stencil" FontSize="20" Height="34" Loaded="pseudoAfficher" HorizontalAlignment="Left" Width="145"/>
+        <Label x:Name="scoring" Content="" Grid.Column="1" HorizontalAlignment="Right" Margin="0,24,10.6,0" VerticalAlignment="Top" FontFamily="Stencil" FontSize="20" Loaded="scoreAfficher" Width="40"/>
+        <TextBox x:Name="reponse" HorizontalAlignment="Center" Height="54" Margin="68,359,798,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" FontSize="18" FontWeight="Bold" Background="Transparent" BorderBrush="#3F000000" SelectionBrush="#000078D7" KeyDown="changerNiveau"/>
+
+        <Label Content="Quelle est la valeur de 5821 ?" HorizontalAlignment="Left" Margin="21,320,0,0" VerticalAlignment="Top" FontFamily="Stencil" FontSize="20"/>
+        <Image HorizontalAlignment="Right" Height="450" VerticalAlignment="Bottom" Width="687" Margin="0,0,50,50" Source="interieur_enigme.PNG"/>
+    </Grid>
+</Window>

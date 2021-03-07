@@ -15,14 +15,14 @@ using System.Windows.Shapes;
 namespace ChallengeMe
 {
     /// <summary>
-    /// Logique d'interaction pour Niveau7.xaml
+    /// Logique d'interaction pour Niveau9.xaml
     /// </summary>
-    public partial class Niveau7 : Window
+    public partial class Niveau9 : Window
     {
         private String name;
         private int score;
 
-        public Niveau7(string name, int score)
+        public Niveau9(string name, int score)
         {
             InitializeComponent();
             this.name = name;
@@ -45,11 +45,11 @@ namespace ChallengeMe
         {
             if (e.Key == Key.Enter)
             {
-                if (reponse.Text.ToString().ToUpper() == "INDICE" )
+                if (reponse.Text.ToString() == Convert.ToString(87))
                 {
                     this.Hide();
                     this.score = score + 1;
-                    Niveau8 p = new Niveau8(name, score);
+                    Niveau10 p = new Niveau10(name, score);
                     p.ShowDialog();
                 }
                 else
