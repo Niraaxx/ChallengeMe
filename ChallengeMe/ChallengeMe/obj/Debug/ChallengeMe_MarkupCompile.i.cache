@@ -4,13 +4,22 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\chabr\Desktop\ChallengeMe\ChallengeMe\ChallengeMe\obj\Debug\
+=======
+C:\Users\rolan\Bureau\Ptut_clone\ChallengeMe\ChallengeMe\ChallengeMe\obj\Debug\
+>>>>>>> af6e4ca33b6f63ab1832e3a7d94e043ff6ea8a2f
 ChallengeMe
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\chabr\Desktop\ChallengeMe\ChallengeMe\ChallengeMe\App.xaml
 17-105641772
+=======
+C:\Users\rolan\Bureau\Ptut_clone\ChallengeMe\ChallengeMe\ChallengeMe\App.xaml
+91980465435
+>>>>>>> af6e4ca33b6f63ab1832e3a7d94e043ff6ea8a2f
 
 221881661884
 13-1505183044

@@ -10,9 +10,16 @@
         <Label Content="Votre Score :" HorizontalAlignment="Right" Margin="0,23,50,0" VerticalAlignment="Top" Width="152" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Stencil" FontSize="20" RenderTransformOrigin="-0.201,0.617" Grid.Column="1" Height="34"/>
         <Label Content="Pseudonyme :" HorizontalAlignment="Left" Margin="26,16,0,0" VerticalAlignment="Top" Width="152" FontFamily="Stencil" FontSize="20" RenderTransformOrigin="0.425,0.525" Height="34"/>
         <Label x:Name="pseudo" Content="" Margin="183,16,0,0" VerticalAlignment="Top" FontFamily="Stencil" FontSize="20" Height="34" Loaded="pseudoAfficher" HorizontalAlignment="Left" Width="145"/>
+<<<<<<< HEAD
         <Label x:Name="scoring" Content="" HorizontalAlignment="Right" Margin="0,24,16,0" VerticalAlignment="Top" FontFamily="Stencil" FontSize="20" Loaded="scoreAfficher" Width="40"/>
         <Label Content="Combien y a-t-il de carré ?" HorizontalAlignment="Center" Margin="257,453,288,0" VerticalAlignment="Top" FontSize="36" FontWeight="Bold"/>
         <TextBox x:Name="reponse" HorizontalAlignment="Center" Height="38" Margin="428,535,452,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="18" FontWeight="Bold" Background="Transparent" BorderBrush="#3F000000" SelectionBrush="#000078D7" KeyDown="changerNiveau"/>
         <Image HorizontalAlignment="Center" Height="391" Margin="0,0,0,80" VerticalAlignment="Center" Width="406" Source="carre_enigme.png"/>
+=======
+        <Label x:Name="scoring" Content="" Grid.Column="1" HorizontalAlignment="Right" Margin="0,24,10.6,0" VerticalAlignment="Top" FontFamily="Stencil" FontSize="20" Loaded="scoreAfficher" Width="40"/>
+        <Label Content="Combien y a-t-il de carré ?" HorizontalAlignment="Center" Margin="257,453,288,0" VerticalAlignment="Top" FontSize="36" FontWeight="Bold"/>
+        <TextBox x:Name="reponse" HorizontalAlignment="Center" Height="38" Margin="428,535,452,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="18" FontWeight="Bold" Background="Transparent" BorderBrush="#3F000000" SelectionBrush="#000078D7" KeyDown="changerNiveau"/>
+        <Image HorizontalAlignment="Left" Height="393" Margin="267,60,0,0" VerticalAlignment="Top" Width="433" Source="carre_enigme.png"/>
+>>>>>>> af6e4ca33b6f63ab1832e3a7d94e043ff6ea8a2f
     </Grid>
 </Window>
