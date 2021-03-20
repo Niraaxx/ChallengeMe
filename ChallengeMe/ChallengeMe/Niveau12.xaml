@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ChallengeMe"
         mc:Ignorable="d"
-        Title="Niveau12" Height="654.098" Width="1036.066">
+        Title="Niveau12" Height="600" Width="900" WindowStartupLocation="CenterScreen">
     <Grid Margin="0,0,2,2">
         <Label Content="Votre Score :" HorizontalAlignment="Right" Margin="0,23,50,0" VerticalAlignment="Top" Width="152" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Stencil" FontSize="20" RenderTransformOrigin="-0.201,0.617" Grid.Column="1" Height="34"/>
         <Label Content="Pseudonyme :" HorizontalAlignment="Left" Margin="26,16,0,0" VerticalAlignment="Top" Width="152" FontFamily="Stencil" FontSize="20" RenderTransformOrigin="0.425,0.525" Height="34"/>
         <Label x:Name="pseudo" Content="" Margin="183,16,0,0" VerticalAlignment="Top" FontFamily="Stencil" FontSize="20" Height="34" Loaded="pseudoAfficher" HorizontalAlignment="Left" Width="145"/>
         <Label x:Name="scoring" Content="" Grid.Column="1" HorizontalAlignment="Right" Margin="0,24,10.6,0" VerticalAlignment="Top" FontFamily="Stencil" FontSize="20" Loaded="scoreAfficher" Width="40"/>
-        <Label Content="Où est la différence ?" HorizontalAlignment="Center" Margin="257,453,288,0" VerticalAlignment="Top" FontSize="36" FontWeight="Bold"/>
-        <Image HorizontalAlignment="Left" Height="393" Margin="236,60,0,0" VerticalAlignment="Top" Width="539" Source="tableau_enigme.PNG"/>
-        <Button Margin="0,0,360,419" VerticalAlignment="Bottom" Click="changerNiveau" Background="#00DDDDDD" BorderBrush="#FF707070" Foreground="#00000000" Height="21" FontSize="14" HorizontalAlignment="Right" Width="20" Opacity="0"/>
+        <Label Content="Où est la différence ?" HorizontalAlignment="Center" Margin="0,455,0,0" VerticalAlignment="Top" FontSize="36" FontWeight="Bold"/>
+        <Image HorizontalAlignment="Center" Height="393" Margin="0,60,0,0" VerticalAlignment="Top" Width="539" Source="tableau_enigme.PNG"/>
+        <Button Margin="0,0,279.6,368.4" VerticalAlignment="Bottom" Click="changerNiveau" Background="#00DDDDDD" BorderBrush="#FF707070" Foreground="#00000000" Height="21" FontSize="14" HorizontalAlignment="Right" Width="20" Opacity="0"/>
     </Grid>
 </Window>

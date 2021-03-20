@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ChallengeMe"
         mc:Ignorable="d"
-        Title="Niveau 6" Height="450" Width="800">
+        Title="Niveau 6" Height="600" Width="900" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="445*"/>
@@ -17,8 +17,8 @@
         <Label x:Name="scoring" Content="" Grid.Column="1" HorizontalAlignment="Right" Margin="0,24,10.6,0" VerticalAlignment="Top" FontFamily="Stencil" FontSize="20" Loaded="scoreAfficher" Width="40"/>
         <Label x:Name="titre" Content="Trouvez la réponse à cette suite" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Top" FontSize="24" Grid.ColumnSpan="2" Width="364" Height="47" FontWeight="Bold"/>
         <Label x:Name="demandeReponse" Content="Votre réponse :" HorizontalAlignment="Left" Margin="12,0,0,0" VerticalAlignment="Center" FontSize="18" Width="140" Height="35" FontWeight="Bold" Grid.Column="1"/>
-        <TextBox x:Name="reponse" HorizontalAlignment="Left" Height="38" Margin="157,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="120" FontSize="18" FontWeight="Bold" Background="Transparent" BorderBrush="#00ABADB3" SelectionBrush="#000078D7" KeyDown="changerNiveau" Grid.Column="1"/>
-        <Image Margin="72,102,26,30" Source="Image4.png" Stretch="Fill"/>
+        <TextBox x:Name="reponse" HorizontalAlignment="Left" Height="34" Margin="157.4,273,0,263.4" TextWrapping="Wrap" VerticalAlignment="Center" Width="120" FontSize="18" FontWeight="Bold" Background="Transparent" BorderBrush="#00ABADB3" SelectionBrush="#000078D7" KeyDown="changerNiveau" Grid.Column="1"/>
+        <Image Margin="10,102,9.6,30.4" Source="Image4.png" Stretch="Fill"/>
 
     </Grid>
 </Window>

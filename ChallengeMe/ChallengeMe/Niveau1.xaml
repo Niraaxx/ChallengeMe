@@ -6,12 +6,8 @@
         xmlns:local="clr-namespace:ChallengeMe"
         xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="ChallengeMe.Niveau1"
         mc:Ignorable="d"
-        Title="Niveau 1" Height="600" Width="900" Closed="changeNiveau">
+        Title="Niveau 1" Height="600" Width="900" Closed="changeNiveau" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="445*"/>
-            <ColumnDefinition Width="447*"/>
-        </Grid.ColumnDefinitions>
         <Label Content="Votre Score :" HorizontalAlignment="Right" Margin="0,23,50,0" VerticalAlignment="Top" Width="152" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Stencil" FontSize="20" RenderTransformOrigin="-0.201,0.617" Grid.Column="1" Height="34"/>
         <Label Content="Pseudonyme :" HorizontalAlignment="Left" Margin="26,16,0,0" VerticalAlignment="Top" Width="152" FontFamily="Stencil" FontSize="20" RenderTransformOrigin="0.425,0.525" Height="34"/>
         <Label x:Name="pseudo" Content="" Margin="183,16,0,0" VerticalAlignment="Top" FontFamily="Stencil" FontSize="20" Height="34" Loaded="pseudoAfficher" HorizontalAlignment="Left" Width="145"/>

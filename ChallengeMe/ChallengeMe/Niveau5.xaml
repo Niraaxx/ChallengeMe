@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:ChallengeMe"
         xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="ChallengeMe.Niveau5"
         mc:Ignorable="d"
-        Title="Niveau 5" Height="600" Width="900">
+        Title="Niveau 5" Height="600" Width="900" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="445*"/>
@@ -17,8 +17,8 @@
         <Label x:Name="pseudo" Content="" Margin="183,16,0,0" VerticalAlignment="Top" FontFamily="Stencil" FontSize="20" Height="34" Loaded="pseudoAfficher" HorizontalAlignment="Left" Width="145"/>
         <Label x:Name="scoring" Content="" Grid.Column="1" HorizontalAlignment="Right" Margin="0,24,10.6,0" FontFamily="Stencil" FontSize="20" Loaded="scoreAfficher" Width="40" Height="34" VerticalAlignment="Top"/>
         <Label x:Name="textQuestion" Content="La réponse est votre score actuel + 5 " HorizontalAlignment="Center" Height="31" Margin="338,25,315.6,0" VerticalAlignment="Top" Width="240" Foreground="#00000000" Background="Transparent" FontSize="14" Grid.ColumnSpan="2"/>
-        <Label x:Name="DemandeReponse" Content="Quelle est votre réponse ?" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="38" Width="218" FontSize="18" FontWeight="Bold" Margin="90,434,0,40"/>
+        <Label x:Name="DemandeReponse" Content="Quelle est votre réponse ?" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="38" Width="218" FontSize="18" FontWeight="Bold" Margin="90,0,0,96.4"/>
         <Label x:Name="titre" Content="Trouvez la question et donnez la bonne réponse" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" FontSize="24" Grid.ColumnSpan="2" Width="561" Height="47" FontWeight="Bold"/>
-        <TextBox x:Name="reponse" HorizontalAlignment="Left" Height="38" Margin="310,0,0,40" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="120" FontSize="18" FontWeight="Bold" Background="Transparent" BorderBrush="#00ABADB3" SelectionBrush="#000078D7" KeyDown="changerNiveau"/>
+        <TextBox x:Name="reponse" HorizontalAlignment="Left" Height="28" Margin="310,0,0,100.4" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="120" FontSize="18" FontWeight="Bold" Background="Transparent" BorderBrush="#00ABADB3" SelectionBrush="#000078D7" KeyDown="changerNiveau"/>
     </Grid>
 </Window>

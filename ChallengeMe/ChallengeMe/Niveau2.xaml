@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:ChallengeMe"
         xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="ChallengeMe.Niveau2"
         mc:Ignorable="d"
-        Title="Niveau 2" Height="600" Width="900">
+        Title="Niveau 2" Height="600" Width="900" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="445*"/>
@@ -17,7 +17,7 @@
         <Label x:Name="pseudo" Content="" Margin="183,16,0,0" VerticalAlignment="Top" FontFamily="Stencil" FontSize="20" Height="34" Loaded="pseudoAfficher" HorizontalAlignment="Left" Width="145"/>
         <Label x:Name="scoring" Content="" Grid.Column="1" HorizontalAlignment="Right" Margin="0,24,10.6,0" VerticalAlignment="Top" FontFamily="Stencil" FontSize="20" Loaded="scoreAfficher" Width="40"/>
         <Button x:Name="ButtonInviValidation" Content="Button" HorizontalAlignment="Left" Margin="26,0,0,11.4" Width="150" Background="#00FFFDFD" BorderBrush="#00707070" Foreground="#00A03D3D" Click="ChangerNiveau" Opacity="0" Height="100" VerticalAlignment="Bottom"/>
-        <Label Content="Harry Potter se cache ici avec sa cape d'invisibilité" Margin="140,62,157,405" Grid.ColumnSpan="2" Height="102" Width="595" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" FontFamily="Stencil" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="Harry Potter se cache ici avec sa cape d'invisibilité" Margin="0,80,0,0" Grid.ColumnSpan="2" Height="102" Width="595" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="20" FontFamily="Stencil" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
 
     </Grid>
 </Window>

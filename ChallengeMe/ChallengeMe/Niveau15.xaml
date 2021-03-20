@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ChallengeMe"
         mc:Ignorable="d"
-        Title="Niveau15" Height="450" Width="800">
+        Title="Niveau15" Height="600" Width="900" WindowStartupLocation="CenterScreen">
     <Grid>
-        
+
     </Grid>
 </Window>
