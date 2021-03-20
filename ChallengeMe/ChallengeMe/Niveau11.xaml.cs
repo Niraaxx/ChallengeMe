@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -14,31 +15,28 @@ using System.Windows.Shapes;
 
 namespace ChallengeMe
 {
+    [DataContract]
     /// <summary>
     /// Logique d'interaction pour Niveau11.xaml
     /// </summary>
     public partial class Niveau11 : Window
     {
-        private String name;
-        private int score;
+        [DataMember] private Joueur j;
 
-        public Niveau11(string name, int score)
+        public Niveau11(Joueur j)
         {
             InitializeComponent();
-            this.name = name;
-            this.score = score;
+            this.j = j;
         }
-
-        public int Score { get => score; set => score = value; }
 
         private void pseudoAfficher(object sender, RoutedEventArgs e)
         {
-            this.pseudo.Content = this.name;
+            this.pseudo.Content = this.j.Name;
         }
 
         private void scoreAfficher(object sender, RoutedEventArgs e)
         {
-            this.scoring.Content = Convert.ToString(Score);
+            this.scoring.Content = Convert.ToString(j.Score);
         }
 
         private void changerNiveau(object sender, KeyEventArgs e)
@@ -48,8 +46,8 @@ namespace ChallengeMe
                 if (reponse.Text.ToString().ToUpper() == "N" || reponse.Text.ToString().ToUpper()== "LETTRE N")
                 {
                     this.Hide();
-                    this.score = score + 1;
-                    Niveau12 p = new Niveau12(name, score);
+                    this.j.Score = j.Score + 1;
+                    Niveau12 p = new Niveau12(j);
                     p.ShowDialog();
                 }
                 else

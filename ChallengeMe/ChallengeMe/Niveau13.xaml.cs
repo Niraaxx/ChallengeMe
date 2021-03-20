@@ -19,26 +19,22 @@ namespace ChallengeMe
     /// </summary>
     public partial class Niveau13 : Window
     {
-        private String name;
-        private int score;
+        private Joueur j;
 
-        public Niveau13(string name, int score)
+        public Niveau13(Joueur j)
         {
             InitializeComponent();
-            this.name = name;
-            this.score = score;
+            this.j = j;
         }
-
-        public int Score { get => score; set => score = value; }
 
         private void pseudoAfficher(object sender, RoutedEventArgs e)
         {
-            this.pseudo.Content = this.name;
+            this.pseudo.Content = this.j.Name;
         }
 
         private void scoreAfficher(object sender, RoutedEventArgs e)
         {
-            this.scoring.Content = Convert.ToString(Score);
+            this.scoring.Content = Convert.ToString(j.Score);
         }
 
         private void changerNiveau(object sender, KeyEventArgs e)
@@ -48,8 +44,8 @@ namespace ChallengeMe
                 if (reponse.Text.ToString() == Convert.ToString(2))
                 {
                     this.Hide();
-                    this.score = score + 1;
-                    Niveau14 p = new Niveau14(name, score);
+                    this.j.Score = j.Score + 1;
+                    Niveau14 p = new Niveau14(j);
                     p.ShowDialog();
                 }
                 else
