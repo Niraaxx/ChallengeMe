@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ChallengeMe;
 
 namespace ChallengeMe
 {
@@ -22,10 +23,13 @@ namespace ChallengeMe
     {
         private String name = "";
         private int score = 0;
+        System.Media.SoundPlayer sound = new System.Media.SoundPlayer();
 
         public Menu()
         {
             InitializeComponent();
+            sound.SoundLocation = "fond.wav";
+            sound.PlayLooping();
         }
 
         public string Name { get => name;}
