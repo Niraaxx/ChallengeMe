@@ -23,10 +23,11 @@ namespace ChallengeMe
     {
         private Joueur j;
         private System.Media.SoundPlayer sound = new System.Media.SoundPlayer();
+        private IStorage storage;
 
         public Menu()
         {
-            this.j = new Joueur();
+            j = storage.Load();
             InitializeComponent();
             sound.SoundLocation = "fond.wav";
             sound.PlayLooping();
@@ -43,6 +44,7 @@ namespace ChallengeMe
                 Console.WriteLine("Nom : " + this.j.Nom);
                 this.Hide();
                 Niveau1 p = new Niveau1(j);
+                storage.Save(j);
                 p.ShowDialog();
                 if (p.DialogResult == DialogResult.HasValue)
                 {
