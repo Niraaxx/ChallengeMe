@@ -14,19 +14,18 @@ using System.Windows.Shapes;
 
 namespace ChallengeMe
 {
+    [System.Runtime.Serialization.DataContract]
     /// <summary>
     /// Logique d'interaction pour Niveau2.xaml  --> niveau encore pas implémenter
     /// </summary>
     public partial class Niveau5 : Window
     {
-        private String name;
-        private int score;
+        [System.Runtime.Serialization.DataMember] private Joueur j;
 
-        public Niveau5(string name, int score)
+        public Niveau5(Joueur j)
         {
             InitializeComponent();
-            this.name = name;
-            this.score = score;
+            this.j = j;
             this.textQuestion.MouseEnter += new MouseEventHandler(afficherText);
             this.textQuestion.MouseLeave += new MouseEventHandler(effacerText);
 
@@ -42,27 +41,25 @@ namespace ChallengeMe
             this.textQuestion.Foreground = new SolidColorBrush(Colors.Black);
         }
 
-        public int Score { get => score; set => score = value; }
-
         private void pseudoAfficher(object sender, RoutedEventArgs e)
         {
-            this.pseudo.Content = this.name;
+            this.pseudo.Content = this.j.Nom;
         }
 
         private void scoreAfficher(object sender, RoutedEventArgs e)
         {
-            this.scoring.Content = Convert.ToString(Score);
+            this.scoring.Content = Convert.ToString(j.Score);
         }
 
         private void changerNiveau(object sender, KeyEventArgs e)
         {
             if (e.Key == Key.Enter)
             {
-                if (reponse.Text.ToString() == Convert.ToString(this.score + 5))
+                if (reponse.Text.ToString() == Convert.ToString(this.j.Score + 5))
                 {
                     this.Hide();
-                    this.score = score + 1;
-                    Niveau6 p = new Niveau6(name, score);
+                    this.j.Score += 1;
+                    Niveau6 p = new Niveau6(j);
                     p.ShowDialog();
                 }
                 else

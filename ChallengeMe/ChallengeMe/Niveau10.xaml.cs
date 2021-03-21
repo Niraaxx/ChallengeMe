@@ -14,38 +14,35 @@ using System.Windows.Shapes;
 
 namespace ChallengeMe
 {
+    [System.Runtime.Serialization.DataContract]
     /// <summary>
     /// Logique d'interaction pour Niveau10.xaml
     /// </summary>
     public partial class Niveau10 : Window
     {
-        private string name;
-        private int score;
+        [System.Runtime.Serialization.DataMember] private Joueur j;
 
-        public Niveau10(string name, int score)
+        public Niveau10(Joueur j)
         {
             InitializeComponent();
-            this.name = name;
-            this.score = score;
+            this.j = j;
         }
-
-        public int Score { get => score; set => score = value; }
 
         private void pseudoAfficher(object sender, RoutedEventArgs e)
         {
-            this.pseudo.Content = this.name;
+            this.pseudo.Content = this.j.Nom;
         }
 
         private void scoreAfficher(object sender, RoutedEventArgs e)
         {
-            this.scoring.Content = Convert.ToString(Score);
+            this.scoring.Content = Convert.ToString(j.Score);
         }
 
         private void changerNiveau(object sender, RoutedEventArgs e)
         {
             this.Hide();
-            this.score = score + 1;
-            Niveau11 p = new Niveau11(name, score);
+            this.j.Score += 1;
+            Niveau11 p = new Niveau11(j);
             p.ShowDialog();
         }
     }

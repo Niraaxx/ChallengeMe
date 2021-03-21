@@ -21,30 +21,28 @@ namespace ChallengeMe
     /// </summary>
     public partial class Menu : Window
     {
-        private String name = "";
-        private int score = 0;
-        System.Media.SoundPlayer sound = new System.Media.SoundPlayer();
+        private Joueur j;
+        private System.Media.SoundPlayer sound = new System.Media.SoundPlayer();
 
         public Menu()
         {
+            this.j = new Joueur();
             InitializeComponent();
             sound.SoundLocation = "fond.wav";
             sound.PlayLooping();
         }
 
-        public string Name { get => name;}
-
         private void play(object sender, RoutedEventArgs e)
         {
-            if (Name == "")
+            if (j.Nom == "")
             {
                 const string Message = "Il vous faut un nom";
                 MessageBox.Show(Message);
             }
             else{
-                Console.WriteLine("Nom : " + this.name);
+                Console.WriteLine("Nom : " + this.j.Nom);
                 this.Hide();
-                Niveau1 p = new Niveau1(name,score);
+                Niveau1 p = new Niveau1(j);
                 p.ShowDialog();
                 if (p.DialogResult == DialogResult.HasValue)
                 {
@@ -56,7 +54,7 @@ namespace ChallengeMe
 
         private void setName(object sender, TextChangedEventArgs e)
         {
-            this.name = txt_name.Text;
+            this.j.Nom = txt_name.Text;
         }
 
         private void btn_regle_Click(object sender, RoutedEventArgs e)

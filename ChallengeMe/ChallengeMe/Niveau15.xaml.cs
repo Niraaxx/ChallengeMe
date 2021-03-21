@@ -14,14 +14,17 @@ using System.Windows.Shapes;
 
 namespace ChallengeMe
 {
+    [System.Runtime.Serialization.DataContract]
     /// <summary>
     /// Logique d'interaction pour Niveau15.xaml
     /// </summary>
     public partial class Niveau15 : Window
     {
-        public Niveau15()
+        [System.Runtime.Serialization.DataMember] private Joueur j;
+        public Niveau15(Joueur j)
         {
             InitializeComponent();
+            this.j = j;
         }
     }
 }
