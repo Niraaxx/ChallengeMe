@@ -9,12 +9,24 @@ ChallengeMe
 none
 false
 DEBUG;TRACE
-C:\Users\rolan\Bureau\Ptut_clone\ChallengeMe\ChallengeMe\ChallengeMe\App.xaml
+<<<<<<< HEAD
+C:\Users\chabr\Desktop\PtutS4\ChallengeMe\ChallengeMe\ChallengeMe\App.xaml
 17-105641772
 
+<<<<<<< HEAD
 232095499587
 14-1317975792
+=======
+221881661884
+=======
+C:\Users\rolan\Bureau\Ptut_clone\ChallengeMe\ChallengeMe\ChallengeMe\App.xaml
+91980465435
+
+141829076931
+>>>>>>> af6e4ca33b6f63ab1832e3a7d94e043ff6ea8a2f
+13-1505183044
+>>>>>>> parent of ea937af (Marche bien)
 MainWindow.xaml;Niveau10.xaml;Niveau11.xaml;Niveau12.xaml;Niveau13.xaml;Niveau14.xaml;Niveau15.xaml;Niveau3.xaml;Niveau2.xaml;Niveau4.xaml;Niveau5.xaml;Niveau6.xaml;Niveau1.xaml;Niveau7.xaml;Niveau8.xaml;Niveau9.xaml;RegleView.xaml;
 
-False
+True
 

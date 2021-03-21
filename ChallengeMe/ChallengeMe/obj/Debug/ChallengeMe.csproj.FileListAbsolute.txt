@@ -166,6 +166,7 @@ C:\Users\chabr\Desktop\ChallengeMe\ChallengeMe\ChallengeMe\obj\Debug\Niveau14.ba
 C:\Users\chabr\Desktop\ChallengeMe\ChallengeMe\ChallengeMe\obj\Debug\Niveau15.baml
 C:\Users\chabr\Desktop\ChallengeMe\ChallengeMe\ChallengeMe\obj\Debug\Niveau8.baml
 C:\Users\chabr\Desktop\ChallengeMe\ChallengeMe\ChallengeMe\obj\Debug\Niveau9.baml
+<<<<<<< HEAD
 C:\Users\rolan\Bureau\Ptut_clone\ChallengeMe\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.csprojAssemblyReference.cache
 C:\Users\rolan\Bureau\Ptut_clone\ChallengeMe\ChallengeMe\ChallengeMe\obj\Debug\MainWindow.g.cs
 C:\Users\rolan\Bureau\Ptut_clone\ChallengeMe\ChallengeMe\ChallengeMe\obj\Debug\Niveau10.g.cs
@@ -260,3 +261,5 @@ C:\Users\chabr\Desktop\ProjetS4\ChallengeMe\ChallengeMe\ChallengeMe\obj\Debug\Ch
 C:\Users\chabr\Desktop\ProjetS4\ChallengeMe\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.csproj.CoreCompileInputs.cache
 C:\Users\chabr\Desktop\ProjetS4\ChallengeMe\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.exe
 C:\Users\chabr\Desktop\ProjetS4\ChallengeMe\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.pdb
+=======
+>>>>>>> parent of ea937af (Marche bien)

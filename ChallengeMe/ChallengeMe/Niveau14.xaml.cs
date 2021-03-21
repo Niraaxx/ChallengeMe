@@ -44,8 +44,17 @@ namespace ChallengeMe
                 if (reponse.Text.ToString() == Convert.ToString(6))
                 {
                     this.Hide();
+<<<<<<< HEAD
                     this.j.Score = j.Score + 1;
                     Niveau1 p = new Niveau1(j);
+=======
+                    this.score = score + 1;
+<<<<<<< HEAD
+                    Niveau1 p = new Niveau1(name, score);
+=======
+                    Niveau15 p = new Niveau15(name, score);
+>>>>>>> af6e4ca33b6f63ab1832e3a7d94e043ff6ea8a2f
+>>>>>>> parent of ea937af (Marche bien)
                     p.ShowDialog();
                 }
                 else
