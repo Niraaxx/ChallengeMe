@@ -21,10 +21,12 @@ namespace ChallengeMe
     public partial class Niveau15 : Window
     {
         [System.Runtime.Serialization.DataMember] private Joueur j;
-        public Niveau15(Joueur j)
+        private IStorage storage;
+        public Niveau15(Joueur j,IStorage storage)
         {
             InitializeComponent();
             this.j = j;
+            this.storage = storage;
         }
     }
 }

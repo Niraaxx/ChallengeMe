@@ -21,11 +21,13 @@ namespace ChallengeMe
     public partial class Niveau2: Window
     {
         [System.Runtime.Serialization.DataMember] private Joueur j;
+        private IStorage storage;
 
-        public Niveau2(Joueur j)
+        public Niveau2(Joueur j,IStorage storage)
         {
             InitializeComponent();
             this.j = j;
+            this.storage = storage;
         }
 
         private void pseudoAfficher(object sender, RoutedEventArgs e)
@@ -42,7 +44,8 @@ namespace ChallengeMe
         {
             this.Hide();
             this.j.Score += 1;
-            Niveau3 p = new Niveau3(j);
+            storage.Save(j);
+            Niveau3 p = new Niveau3(j,storage);
             p.ShowDialog();
         }
     }

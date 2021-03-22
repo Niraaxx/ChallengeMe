@@ -43,7 +43,7 @@ namespace ChallengeMe
             else{
                 Console.WriteLine("Nom : " + this.j.Nom);
                 this.Hide();
-                Niveau1 p = new Niveau1(j);
+                Niveau1 p = new Niveau1(j,storage);
                 storage.Save(j);
                 p.ShowDialog();
                 if (p.DialogResult == DialogResult.HasValue)
