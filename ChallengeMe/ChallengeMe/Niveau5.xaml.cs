@@ -62,7 +62,7 @@ namespace ChallengeMe
                     this.Hide();
                     this.j.Score += 1;
                     storage.Save(j);
-                    Niveau6 p = new Niveau6(j);
+                    Niveau6 p = new Niveau6(j,storage);
                     p.ShowDialog();
                 }
                 else

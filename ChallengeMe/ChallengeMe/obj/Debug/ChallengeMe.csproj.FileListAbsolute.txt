@@ -307,3 +307,5 @@ C:\Users\chabr\Desktop\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.csproj.Gene
 C:\Users\chabr\Desktop\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.csproj.CoreCompileInputs.cache
 C:\Users\chabr\Desktop\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.exe
 C:\Users\chabr\Desktop\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.pdb
+C:\Users\chabr\Desktop\ProjetS4\ChallengeMe\ChallengeMe\ChallengeMe\obj\Debug\WinWindow.g.cs
+C:\Users\chabr\Desktop\ProjetS4\ChallengeMe\ChallengeMe\ChallengeMe\obj\Debug\WinWindow.baml

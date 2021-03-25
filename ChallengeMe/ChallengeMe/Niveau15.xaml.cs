@@ -16,17 +16,47 @@ namespace ChallengeMe
 {
     [System.Runtime.Serialization.DataContract]
     /// <summary>
-    /// Logique d'interaction pour Niveau15.xaml
+    /// Logique d'interaction pour Niveau11.xaml
     /// </summary>
     public partial class Niveau15 : Window
     {
         [System.Runtime.Serialization.DataMember] private Joueur j;
         private IStorage storage;
-        public Niveau15(Joueur j,IStorage storage)
+
+        public Niveau15(Joueur j, IStorage storage)
         {
             InitializeComponent();
             this.j = j;
             this.storage = storage;
+        }
+
+        private void pseudoAfficher(object sender, RoutedEventArgs e)
+        {
+            this.pseudo.Content = this.j.Nom;
+        }
+
+        private void scoreAfficher(object sender, RoutedEventArgs e)
+        {
+            this.scoring.Content = Convert.ToString(j.Score);
+        }
+
+        private void changerNiveau(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                if (reponse.Text.ToString().Contains("4"))
+                {
+                    this.Hide();
+                    this.j.Score += 1;
+                    storage.Save(j);
+                    WinWindow p = new WinWindow(j, storage);
+                    p.ShowDialog();
+                }
+                else
+                {
+                    MessageBox.Show("Ce n'est pas la bonne réponse !!");
+                }
+            }
         }
     }
 }

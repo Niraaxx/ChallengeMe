@@ -16,37 +16,22 @@ namespace ChallengeMe
 {
     [System.Runtime.Serialization.DataContract]
     /// <summary>
-    /// Logique d'interaction pour Niveau12.xaml
+    /// Logique d'interaction pour Niveau15.xaml
     /// </summary>
-    public partial class Niveau12 : Window
+    public partial class WinWindow : Window
     {
         [System.Runtime.Serialization.DataMember] private Joueur j;
         private IStorage storage;
-
-        public Niveau12(Joueur j,IStorage storage)
+        public WinWindow(Joueur j, IStorage storage)
         {
             InitializeComponent();
             this.j = j;
             this.storage = storage;
         }
 
-        private void pseudoAfficher(object sender, RoutedEventArgs e)
+        private void quitJeu(object sender, RoutedEventArgs e)
         {
-            this.pseudo.Content = this.j.Nom;
-        }
-
-        private void scoreAfficher(object sender, RoutedEventArgs e)
-        {
-            this.scoring.Content = Convert.ToString(j.Score);
-        }
-
-        private void changerNiveau(object sender, RoutedEventArgs e)
-        {
-            this.Hide();
-            this.j.Score += 1;
-            storage.Save(j);
-            Niveau13 p = new Niveau13(j,storage);
-            p.ShowDialog();
+            this.Close();
         }
     }
 }

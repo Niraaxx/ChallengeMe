@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ChallengeMe"
         mc:Ignorable="d"
-        Title="Niveau15" Height="600" Width="900" WindowStartupLocation="CenterScreen">
-    <Grid>
+        Title="Niveau 15" Height="600" Width="900" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,0,2,1">
+        <Label Content="Votre Score :" HorizontalAlignment="Right" Margin="0,23,50,0" VerticalAlignment="Top" Width="152" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Stencil" FontSize="20" RenderTransformOrigin="-0.201,0.617" Grid.Column="1" Height="34"/>
+        <Label Content="Pseudonyme :" HorizontalAlignment="Left" Margin="26,16,0,0" VerticalAlignment="Top" Width="152" FontFamily="Stencil" FontSize="20" RenderTransformOrigin="0.425,0.525" Height="34"/>
+        <Label x:Name="pseudo" Content="" Margin="183,16,0,0" VerticalAlignment="Top" FontFamily="Stencil" FontSize="20" Height="34" Loaded="pseudoAfficher" HorizontalAlignment="Left" Width="145"/>
+        <Label x:Name="scoring" Content="" Grid.Column="1" HorizontalAlignment="Right" Margin="0,24,10.6,0" VerticalAlignment="Top" FontFamily="Stencil" FontSize="20" Loaded="scoreAfficher" Width="40"/>
+        <Image Margin="183,214,222.6,184.4" Source="Image6.png" Stretch="Fill"/>
+        <TextBox x:Name="reponse" HorizontalAlignment="Center" Height="34" Margin="0,0,0,100" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="167" FontSize="18" FontWeight="Bold" Background="Transparent" BorderBrush="#3F000000" SelectionBrush="#000078D7" KeyDown="changerNiveau"/>
+        <Label Content="A quoi correspond le point d'interrogation" HorizontalAlignment="Center" Margin="0,125,0,0" VerticalAlignment="Top" FontFamily="Stencil" FontSize="20"/>
 
     </Grid>
 </Window>

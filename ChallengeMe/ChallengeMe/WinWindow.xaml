@@ -1,0 +1,22 @@
+﻿<Window x:Class="ChallengeMe.WinWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChallengeMe"
+        mc:Ignorable="d"
+        Title="Victoire"  Height="600" Width="900" WindowStartupLocation="CenterScreen">
+    <Grid Margin="10,0,2,14">
+        <Label Content="Bravo" HorizontalAlignment="Center" Margin="271,50,269.6,0" VerticalAlignment="Top" Height="65" Width="341" FontStyle="Italic" FontFamily="Bernard MT Condensed" Background="#5DE9FF40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="36"/>
+        <Label Content="Bravo, vous avez réussi a finir ce jeu en dépassant&#xD;&#xA;chaque niveau avec brio, j'en suis sur !&#xD;&#xA;Vous avez la possibilité de le recommencé&#xD;&#xA;si vous le souhaitez.&#xD;&#xA;Quel que soit votre choix cliquer sur &#xD;&#xA;le bouton si-dessous pour fermer le jeu.&#xA;" HorizontalAlignment="Center" Margin="130,182,129.6,156.4" VerticalAlignment="Center" Height="218" Width="622" FontFamily="Segoe UI Black" FontSize="24" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" RenderTransformOrigin="0.5,0" UseLayoutRounding="True" FontStyle="Oblique">
+            <Label.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFC3C3C3" Offset="0"/>
+                    <GradientStop Color="White" Offset="0.524"/>
+                    <GradientStop Color="#FFC3C3C3" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.Background>
+        </Label>
+        <Button Name="button_retour" Content="Merci d'avoir Jouer" HorizontalAlignment="Center" Margin="0,0,5,52.4" VerticalAlignment="Bottom" Width="125" Click="quitJeu" Height="42"/>
+    </Grid>
+</Window>
