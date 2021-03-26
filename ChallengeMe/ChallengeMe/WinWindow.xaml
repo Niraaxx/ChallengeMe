@@ -8,7 +8,7 @@
         Title="Victoire"  Height="600" Width="900" WindowStartupLocation="CenterScreen">
     <Grid Margin="10,0,2,14">
         <Label Content="Bravo" HorizontalAlignment="Center" Margin="271,50,269.6,0" VerticalAlignment="Top" Height="65" Width="341" FontStyle="Italic" FontFamily="Bernard MT Condensed" Background="#5DE9FF40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="36"/>
-        <Label Content="Bravo, vous avez réussi a finir ce jeu en dépassant&#xD;&#xA;chaque niveau avec brio, j'en suis sur !&#xD;&#xA;Vous avez la possibilité de le recommencé&#xD;&#xA;si vous le souhaitez.&#xD;&#xA;Quel que soit votre choix cliquer sur &#xD;&#xA;le bouton si-dessous pour fermer le jeu.&#xA;" HorizontalAlignment="Center" Margin="130,182,129.6,156.4" VerticalAlignment="Center" Height="218" Width="622" FontFamily="Segoe UI Black" FontSize="24" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" RenderTransformOrigin="0.5,0" UseLayoutRounding="True" FontStyle="Oblique">
+        <Label Content="Vous avez réussi a finir ce jeu en dépassant&#xA;chaque niveau avec brio, j'en suis sûr !&#xA;Vous avez la possibilité de le recommencé&#xA;si vous le souhaitez.&#xA;Quelque soit votre choix cliquer sur &#xA;le bouton ci-dessous pour fermer le jeu.&#xA;" HorizontalAlignment="Center" Margin="130,182,129.6,156.4" VerticalAlignment="Center" Height="218" Width="622" FontFamily="Segoe UI Black" FontSize="24" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" RenderTransformOrigin="0.5,0" UseLayoutRounding="True" FontStyle="Oblique">
             <Label.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFC3C3C3" Offset="0"/>

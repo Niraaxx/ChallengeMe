@@ -309,3 +309,5 @@ C:\Users\chabr\Desktop\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.exe
 C:\Users\chabr\Desktop\ChallengeMe\ChallengeMe\obj\Debug\ChallengeMe.pdb
 C:\Users\chabr\Desktop\ProjetS4\ChallengeMe\ChallengeMe\ChallengeMe\obj\Debug\WinWindow.g.cs
 C:\Users\chabr\Desktop\ProjetS4\ChallengeMe\ChallengeMe\ChallengeMe\obj\Debug\WinWindow.baml
+C:\Users\rolan\Bureau\Ptut_clone\ChallengeMe\ChallengeMe\ChallengeMe\obj\Debug\WinWindow.g.cs
+C:\Users\rolan\Bureau\Ptut_clone\ChallengeMe\ChallengeMe\ChallengeMe\obj\Debug\WinWindow.baml

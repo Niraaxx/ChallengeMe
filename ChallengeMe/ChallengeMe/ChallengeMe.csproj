@@ -224,9 +224,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Image1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="carré.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -240,17 +237,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="carre_enigme.png" />
-    <Resource Include="Image2.png" />
-    <Resource Include="Image3.png" />
     <Resource Include="panda_enigme.PNG" />
     <Resource Include="tableau_enigme.PNG" />
     <Resource Include="voiture_enigme.PNG" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="interieur_enigme.PNG" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Image5.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image6.png" />

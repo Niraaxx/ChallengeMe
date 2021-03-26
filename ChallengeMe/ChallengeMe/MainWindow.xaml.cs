@@ -23,7 +23,7 @@ namespace ChallengeMe
     {
         private Joueur j;
         private System.Media.SoundPlayer sound = new System.Media.SoundPlayer();
-        private IStorage storage;
+        private IStorage storage = new JsonStorage("player.json");
 
         public Menu()
         {
