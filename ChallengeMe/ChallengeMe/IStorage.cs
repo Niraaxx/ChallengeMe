@@ -11,5 +11,7 @@ namespace ChallengeMe
         void Save(Joueur j);
 
         Joueur Load();
+
+        void Delete();
     }
 }

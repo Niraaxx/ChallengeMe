@@ -32,6 +32,8 @@ namespace ChallengeMe
         private void quitJeu(object sender, RoutedEventArgs e)
         {
             this.Close();
+            Menu menu = new Menu();
+            menu.ShowDialog();
         }
     }
 }

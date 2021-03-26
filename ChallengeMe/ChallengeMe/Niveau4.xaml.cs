@@ -47,5 +47,12 @@ namespace ChallengeMe
             Niveau5 p= new Niveau5(j,storage);
             p.ShowDialog();
         }
+
+        private void backToMain(object sender, EventArgs e)
+        {
+            this.Hide();
+            Menu menu = new Menu();
+            menu.ShowDialog();
+        }
     }
 }

@@ -48,6 +48,7 @@ namespace ChallengeMe
                 {
                     this.Hide();
                     this.j.Score += 1;
+                    storage.Save(j);
                     Niveau7 p = new Niveau7(j,storage);
                     p.ShowDialog();
                 }
@@ -56,6 +57,13 @@ namespace ChallengeMe
                     MessageBox.Show("Ce n'est pas la bonne réponse !!");
                 }
             }
+        }
+
+        private void backToMain(object sender, EventArgs e)
+        {
+            this.Hide();
+            Menu menu = new Menu();
+            menu.ShowDialog();
         }
     }
 }

@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using ChallengeMe;
 
 namespace ChallengeMe
 {
@@ -47,6 +48,13 @@ namespace ChallengeMe
             storage.Save(j);
             Niveau3 p = new Niveau3(j,storage);
             p.ShowDialog();
+        }
+
+        private void backToMainWindow(object sender, EventArgs e)
+        {
+            this.Hide();
+            Menu menu = new Menu();
+            menu.ShowDialog();
         }
     }
 }

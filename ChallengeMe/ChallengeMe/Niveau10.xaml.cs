@@ -42,11 +42,18 @@ namespace ChallengeMe
 
         private void changerNiveau(object sender, RoutedEventArgs e)
         {
-            this.Hide();
+            this.Close();
             this.j.Score += 1;
             storage.Save(j);
             Niveau11 p = new Niveau11(j,storage);
             p.ShowDialog();
+        }
+
+        private void backToMain(object sender, EventArgs e)
+        {
+            this.Close();
+            Menu menu = new Menu();
+            menu.ShowDialog();
         }
     }
 }

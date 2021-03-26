@@ -58,5 +58,12 @@ namespace ChallengeMe
                 }
             }
         }
+
+        private void backToMain(object sender, EventArgs e)
+        {
+            this.Hide();
+            Menu menu = new Menu();
+            menu.ShowDialog();
+        }
     }
 }

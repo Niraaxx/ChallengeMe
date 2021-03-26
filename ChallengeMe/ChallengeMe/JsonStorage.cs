@@ -16,6 +16,12 @@ namespace ChallengeMe
         {
             this.file = file;
         }
+
+        public void Delete()
+        {
+            throw new NotImplementedException();
+        }
+
         public Joueur Load()
         {
             try
@@ -40,8 +46,7 @@ namespace ChallengeMe
                 using (FileStream flux = new FileStream(file, FileMode.Create))
                 {
                     System.Runtime.Serialization.Json.DataContractJsonSerializer ser = new System.Runtime.Serialization.Json.DataContractJsonSerializer(typeof(Joueur));
-                    ser.WriteObject(flux, joueur);
-                    
+                    ser.WriteObject(flux, joueur); 
                 }
             }
             catch

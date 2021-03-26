@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ChallengeMe"
         mc:Ignorable="d"
-        Title="Niveau 4" Height="600" Width="900" WindowStartupLocation="CenterScreen">
+        Title="Niveau 4" Height="600" Width="900" WindowStartupLocation="CenterScreen" Closed="backToMain">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="445*"/>

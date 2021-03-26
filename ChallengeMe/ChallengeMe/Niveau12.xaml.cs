@@ -48,5 +48,12 @@ namespace ChallengeMe
             Niveau13 p = new Niveau13(j,storage);
             p.ShowDialog();
         }
+
+        private void backToMain(object sender, EventArgs e)
+        {
+            this.Hide();
+            Menu menu = new Menu();
+            menu.ShowDialog();
+        }
     }
 }

@@ -48,5 +48,12 @@ namespace ChallengeMe
             Niveau4 p = new Niveau4(j,storage);
             p.ShowDialog();
         }
+
+        private void backToMain(object sender, EventArgs e)
+        {
+            this.Hide();
+            Menu menu = new Menu();
+            menu.ShowDialog();
+        }
     }
 }

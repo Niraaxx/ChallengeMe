@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:ChallengeMe"
         xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="ChallengeMe.Niveau5"
         mc:Ignorable="d"
-        Title="Niveau 5" Height="600" Width="900" WindowStartupLocation="CenterScreen">
+        Title="Niveau 5" Height="600" Width="900" WindowStartupLocation="CenterScreen" Closed="backToMain">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="445*"/>
