@@ -9,6 +9,7 @@ namespace ChallengeMe
 {
     public class JsonStorage : IStorage
     {
+        private string path = "player.json";
         private String file;
         private Joueur joueur;
 
@@ -19,7 +20,7 @@ namespace ChallengeMe
 
         public void Delete()
         {
-            throw new NotImplementedException();
+            File.Delete(path);
         }
 
         public Joueur Load()
