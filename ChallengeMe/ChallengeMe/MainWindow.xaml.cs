@@ -23,15 +23,14 @@ namespace ChallengeMe
     {
         private Joueur j;
         private Joueur j2 = new Joueur();
-        private System.Media.SoundPlayer sound = new System.Media.SoundPlayer();
+        private Musique mus = new Musique();
         private IStorage storage = new JsonStorage("player.json");
 
         public Menu()
         {
             j = storage.Load();
             InitializeComponent();
-            sound.SoundLocation = "fond.wav";
-            sound.PlayLooping();
+            mus.playFond();
         }
 
         private void play(object sender, RoutedEventArgs e)

@@ -64,6 +64,7 @@
     <Compile Include="IStorage.cs" />
     <Compile Include="Joueur.cs" />
     <Compile Include="JsonStorage.cs" />
+    <Compile Include="Musique.cs" />
     <Compile Include="Niveau10.xaml.cs">
       <DependentUpon>Niveau10.xaml</DependentUpon>
     </Compile>

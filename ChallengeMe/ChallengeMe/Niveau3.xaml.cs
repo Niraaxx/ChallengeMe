@@ -21,6 +21,7 @@ namespace ChallengeMe
     public partial class Niveau3 : Window
     {
         [System.Runtime.Serialization.DataMember] private Joueur j;
+        private Musique mus = new Musique();
         private IStorage storage;
 
         public Niveau3(Joueur j,IStorage storage)
@@ -42,6 +43,7 @@ namespace ChallengeMe
 
         private void changerNiveau(object sender, RoutedEventArgs e)
         {
+            mus.playVic();
             this.Hide();
             this.j.Score += 1;
             storage.Save(j);

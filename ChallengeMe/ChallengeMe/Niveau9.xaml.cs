@@ -21,6 +21,7 @@ namespace ChallengeMe
     public partial class Niveau9 : Window
     {
         [System.Runtime.Serialization.DataMember] private Joueur j;
+        private Musique mus = new Musique();
         private IStorage storage;
 
         public Niveau9(Joueur j, IStorage storage)
@@ -46,6 +47,7 @@ namespace ChallengeMe
             {
                 if (reponse.Text.ToString() == Convert.ToString(87))
                 {
+                    mus.playVic();
                     this.Hide();
                     this.j.Score += 1;
                     storage.Save(j);
