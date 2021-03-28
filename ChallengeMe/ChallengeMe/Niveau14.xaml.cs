@@ -51,7 +51,7 @@ namespace ChallengeMe
                     this.Hide();
                     this.j.Score += 1;
                     storage.Save(j);
-                    Niveau1 p = new Niveau1(j,storage);
+                    Niveau15 p = new Niveau15(j,storage);
                     p.ShowDialog();
                 }
                 else
