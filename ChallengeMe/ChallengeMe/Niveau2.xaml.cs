@@ -17,14 +17,24 @@ namespace ChallengeMe
 {
     [System.Runtime.Serialization.DataContract]
     /// <summary>
-    /// Logique d'interaction pour Niveau1.xaml --> Bouton invisible
+    /// Logique d'interaction pour Niveau2.xaml
     /// </summary>
     public partial class Niveau2: Window
     {
+        //Joueur sérialisé 
         [System.Runtime.Serialization.DataMember] private Joueur j;
+
+        //Musique du jeu 
         private Musique mus = new Musique();
+
+        //Stockage 
         private IStorage storage;
 
+        /// <summary>
+        /// Constructeur du niveau 2
+        /// </summary>
+        /// <param name="j">Joueur</param>
+        /// <param name="storage">Stockage</param>
         public Niveau2(Joueur j,IStorage storage)
         {
             InitializeComponent();
@@ -33,16 +43,31 @@ namespace ChallengeMe
             
         }
 
+        /// <summary>
+        /// Méthode pour afficher le pseudonyme du joueur dès l'apparition de la fenêtre
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void pseudoAfficher(object sender, RoutedEventArgs e)
         {
             this.pseudo.Content = this.j.Nom;
         }
 
+        /// <summary>
+        /// Méthode pour afficher le score du joueur dès l'apparition de la fenêtre
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void scoreAfficher(object sender, RoutedEventArgs e)
         {
             this.scoring.Content = Convert.ToString(j.Score);
         }
 
+        /// <summary>
+        /// Méthode pour changer de niveau dès que l'énigme est résolu
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ChangerNiveau(object sender, RoutedEventArgs e)
         {
             mus.playVic();
@@ -53,11 +78,14 @@ namespace ChallengeMe
             p.ShowDialog();
         }
 
+        /// <summary>
+        /// Méthode lors de la fermeture de la fenêtre pour revenir au Menu
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void backToMainWindow(object sender, EventArgs e)
         {
-            this.Hide();
-            Menu menu = new Menu();
-            menu.ShowDialog();
+            this.Close();
         }
     }
 }

@@ -14,16 +14,26 @@ using System.Windows.Shapes;
 
 namespace ChallengeMe
 {
-    [System.Runtime.Serialization.DataContract]
+    [System.Runtime.Serialization.DataContract] // Permettre la sérialisation 
     /// <summary>
-    /// Logique d'interaction pour Niveau11.xaml
+    /// Logique d'interaction pour Niveau15.xaml
     /// </summary>
     public partial class Niveau15 : Window
     {
-        [System.Runtime.Serialization.DataMember] private Joueur j;
+        //Joueur sérialisé 
+        [System.Runtime.Serialization.DataMember] private Joueur j; 
+
+        //Musique du jeu 
         private Musique mus = new Musique();
+
+        //Stockage 
         private IStorage storage;
 
+        /// <summary>
+        /// Constructeur du niveau 15
+        /// </summary>
+        /// <param name="j">Joueur</param>
+        /// <param name="storage">Stockage</param>
         public Niveau15(Joueur j, IStorage storage)
         {
             InitializeComponent();
@@ -31,18 +41,34 @@ namespace ChallengeMe
             this.storage = storage;
         }
 
+        /// <summary>
+        /// Méthode pour afficher le pseudonyme du joueur dès l'apparition de la fenêtre
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void pseudoAfficher(object sender, RoutedEventArgs e)
         {
             this.pseudo.Content = this.j.Nom;
         }
 
+        /// <summary>
+        /// Méthode pour afficher le score du joueur dès l'apparition de la fenêtre
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void scoreAfficher(object sender, RoutedEventArgs e)
         {
             this.scoring.Content = Convert.ToString(j.Score);
         }
 
+        /// <summary>
+        /// Méthode pour changer de niveau dès que l'énigme est résolu
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void changerNiveau(object sender, KeyEventArgs e)
         {
+            //Pour valider, on utilise la touche Entrée
             if (e.Key == Key.Enter)
             {
                 if (reponse.Text.ToString().Contains("4"))
@@ -61,11 +87,14 @@ namespace ChallengeMe
             }
         }
 
+        /// <summary>
+        /// Méthode lors de la fermeture de la fenêtre pour revenir au Menu
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void backToMain(object sender, EventArgs e)
         {
-            this.Hide();
-            Menu menu = new Menu();
-            menu.ShowDialog();
+            this.Close();
         }
     }
 }

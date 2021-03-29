@@ -20,10 +20,19 @@ namespace ChallengeMe
     public partial class Regle: Window
     {
 
+        /// <summary>
+        /// Constructeur de la fenêtre pour les règles
+        /// </summary>
         public Regle()
         {
             InitializeComponent();
         }
+
+        /// <summary>
+        /// Méthode qui ferme la fenêtre et retourne au Menu
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void retour_menu(object sender, RoutedEventArgs e)
         {
             this.Close();

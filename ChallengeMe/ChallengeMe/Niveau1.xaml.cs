@@ -16,14 +16,24 @@ namespace ChallengeMe
 {
     [System.Runtime.Serialization.DataContract]
     /// <summary>
-    /// Logique d'interaction pour Partie.xaml
+    /// Logique d'interaction pour Niveau1.xaml
     /// </summary>
     public partial class Niveau1 : Window
     {
+        //Joueur sérialisé 
         [System.Runtime.Serialization.DataMember] private Joueur j;
+
+        //Musique du jeu 
         private Musique mus = new Musique();
+
+        //Stockage 
         private IStorage storage;
 
+        /// <summary>
+        /// Constructeur du niveau 1
+        /// </summary>
+        /// <param name="j">Joueur</param>
+        /// <param name="storage">Stockage</param>
         public Niveau1(Joueur j,IStorage storage)
         {
             InitializeComponent();
@@ -31,16 +41,31 @@ namespace ChallengeMe
             this.storage = storage;
         }
 
+        /// <summary>
+        /// Méthode pour afficher le pseudonyme du joueur dès l'apparition de la fenêtre
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void pseudoAfficher(object sender, RoutedEventArgs e)
         {
             this.pseudo.Content = this.j.Nom;
         }
 
+        /// <summary>
+        /// Méthode pour afficher le score du joueur dès l'apparition de la fenêtre
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void scoreAfficher(object sender, RoutedEventArgs e)
         {
             this.scoring.Content = Convert.ToString(j.Score);
         }
 
+        /// <summary>
+        /// Méthode pour changer de niveau dès que l'énigme est résolu
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void changeNiveau(object sender, EventArgs e)
         {
             mus.playVic(); 
@@ -48,7 +73,6 @@ namespace ChallengeMe
             storage.Save(j);
             Niveau2 p = new Niveau2(j,storage);
             p.ShowDialog();
-            
         }
     }
 }

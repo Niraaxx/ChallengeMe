@@ -9,20 +9,36 @@ namespace ChallengeMe
 {
     public class JsonStorage : IStorage
     {
+        //Chemin 
         private string path = "player.json";
+
+        //Fichier
         private String file;
+
+        //Joueur
         private Joueur joueur;
 
+        /// <summary>
+        /// Constructeur avec comme paramètre le nom du fichier
+        /// </summary>
+        /// <param name="file">Fichier</param>
         public JsonStorage(String file)
         {
             this.file = file;
         }
 
+        /// <summary>
+        /// Méthode pour supprimer le fichier
+        /// </summary>
         public void Delete()
         {
             File.Delete(path);
         }
 
+        /// <summary>
+        /// Méthode pour charger le joueur à partir du fichier
+        /// </summary>
+        /// <returns>Joueur joueur</returns>
         public Joueur Load()
         {
             try
@@ -40,6 +56,10 @@ namespace ChallengeMe
             return joueur;
         }
 
+        /// <summary>
+        /// Méthode pour sauvegarder le joueur et ses attributs
+        /// </summary>
+        /// <param name="j">Joueur à sauvegarder</param>
         public void Save(Joueur j)
         {
             try

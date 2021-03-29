@@ -21,9 +21,16 @@ namespace ChallengeMe
     /// </summary>
     public partial class Menu : Window
     {
+        //Joueur créer pour faire le jeu 
         private Joueur j;
-        private Joueur j2 = new Joueur();
+
+        //Joueur temporaire qui prend les attributs du joueur sauvegardé
+        private Joueur j2;
+
+        //Musique dans le jeu
         private Musique mus = new Musique();
+
+        //Création du fichier 
         private IStorage storage = new JsonStorage("player.json");
 
         public Menu()
@@ -35,8 +42,10 @@ namespace ChallengeMe
 
         private void play(object sender, RoutedEventArgs e)
         {
-            if(j.Nom == j2.Nom)
+            //Si c'est le même joueur
+            if (j.Nom == j2.Nom)
             {
+                //Ouvre la fenêtre en fonction de son score
                 switch (j.Score)
                 {
                     case 0:
@@ -52,10 +61,7 @@ namespace ChallengeMe
                             Niveau1 p = new Niveau1(j, storage);
                             storage.Save(j);
                             p.ShowDialog();
-                            if (p.DialogResult == DialogResult.HasValue)
-                            {
-                                this.Show();
-                            }
+                            this.Show();
 
                         }
                         break;
@@ -138,6 +144,7 @@ namespace ChallengeMe
             }
             else
             {
+                //Supprime la sauvegarde du joueur précédent et on en créer une pour le nouveau
                 storage.Delete();
                 j = j2;
                 if (j.Nom == "")
@@ -151,20 +158,28 @@ namespace ChallengeMe
                     Niveau1 p = new Niveau1(j, storage);
                     storage.Save(j);
                     p.ShowDialog();
-                    if (p.DialogResult == DialogResult.HasValue)
-                    {
-                        this.Show();
-                    }
+                    this.Show();
                 }
             }
 
         }
 
+        /// <summary>
+        /// Attribution du nom du joueur temporaire (j2)
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void setName(object sender, TextChangedEventArgs e)
         {
+            this.j2 = new Joueur();
             this.j2.Nom = txt_name.Text;
         }
 
+        /// <summary>
+        /// Fonction pour ouvrir la fenêtre des règles
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btn_regle_Click(object sender, RoutedEventArgs e)
         {
             this.Hide();
