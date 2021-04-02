@@ -66,25 +66,14 @@ namespace ChallengeMe
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void changerNiveau(object sender, KeyEventArgs e)
+        private void changerNiveau(object sender, RoutedEventArgs e)
         {
-            //Pour valider, on utilise la touche Entrée
-            if (e.Key == Key.Enter)
-            {
-                if (reponse.Text.ToString().Contains("4"))
-                {
-                    mus.playVic();
-                    this.Hide();
-                    this.j.Score += 1;
-                    storage.Save(j);
-                    WinWindow p = new WinWindow(j, storage);
-                    p.ShowDialog();
-                }
-                else
-                {
-                    MessageBox.Show("Ce n'est pas la bonne réponse !!");
-                }
-            }
+            mus.playVic();
+            this.Hide();
+            this.j.Score += 1;
+            storage.Save(j);
+            WinWindow p = new WinWindow(j, storage);
+            p.ShowDialog();
         }
 
         /// <summary>
@@ -95,6 +84,6 @@ namespace ChallengeMe
         private void backToMain(object sender, EventArgs e)
         {
             this.Close();
-        }
+        }        
     }
 }
