@@ -44,5 +44,10 @@ namespace ChallengeMe
             Thread.Sleep(3000);
             fond.PlayLooping();
         }
+        public void Stop()
+        {
+            fond.Stop();
+            vict.Stop();
+        }
     }
 }

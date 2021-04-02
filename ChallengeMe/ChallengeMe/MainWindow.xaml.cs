@@ -190,5 +190,10 @@ namespace ChallengeMe
                 this.Show();
             }
         }
+
+        private void Quit(object sender, EventArgs e)
+        {
+            mus.Stop();
+        }
     }
 }
